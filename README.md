@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🏥 Tech.Care
 
 **Modern Patient Management Dashboard**
@@ -55,18 +54,6 @@ A modern, clinic-ready patient dashboard built with React and Tailwind CSS, givi
 - Vite
 - Chart.js + react-chartjs-2
 - Fetch API + AbortController
-
-## 🔌 Data Source
-
-The app consumes the [Coalition Technologies Skills Test API](https://fedskillstest.coalitiontechnologies.workers.dev), authenticated with Basic Auth:
-
-```js
-const token = btoa("coalition:skills-test");
-
-fetch("https://fedskillstest.coalitiontechnologies.workers.dev", {
-  headers: { Authorization: `Basic ${token}` },
-});
-```
 
 Each patient record includes: `name`, `age`, `gender`, `profile_picture`, `date_of_birth`, `phone_number`, `emergency_contact`, `insurance_type`, `diagnosis_history`, `diagnostic_list`, `lab_results`.
 
